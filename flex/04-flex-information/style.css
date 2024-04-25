@@ -12,6 +12,24 @@ img {
   font-weight: 900;
 }
 
+.information-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+}
+
+.plant-info {
+  display: flex;
+  gap: 52px;
+  text-align: center;
+}
+
+.barberry, .chilli, .peppers, .saffron {
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
